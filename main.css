@@ -1,5 +1,31 @@
 /* Your code here */
-
+#page-title {
+    font-weight: bold;
+}
+.pagenum {
+    position: absolute;
+    right: 1%;
+    font-size: small
+}
+p {
+    text-align: justify;
+    margin-top: .75em;
+    margin-bottom: .75em
+}
+pre {
+    width: fit-content;
+    margin:auto;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration-line: underline;
+    font-weight: bold; 
+}
+pre>a {
+    color: black
+}
 /* ===== DO NOT EDIT BELOW THIS COMMENT ===== */
 
 .noin {
@@ -8,7 +34,7 @@
 
 body > p {
     text-indent: 1em;
-}
+    }
 
 h1, h2, h3 {
     font-weight: normal;
